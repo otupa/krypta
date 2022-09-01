@@ -1,4 +1,4 @@
-import Header from '../../components/Header/index.tsx'
+import Header from '../../components/Header/index'
 
 export default function App() {
   return (
