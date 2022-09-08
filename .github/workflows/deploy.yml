@@ -15,11 +15,6 @@ jobs:
         with:
           node-version: '16.17.0'
 
-      - name: Cache node modules
-        uses: actions/cache@v2
-        with:
-          path: ~/node_modules
-          key: cache-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install and build
         run: |
